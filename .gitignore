@@ -1,0 +1,14 @@
+# Python virtual environment
+venv/
+
+# Streamlit secrets (DO NOT UPLOAD API KEYS)
+.streamlit/
+secrets.toml
+
+# Local database
+chroma_db/
+
+# Temporary files
+temp_docs/
+__pycache__/
+.DS_Store

@@ -1,0 +1,14 @@
+streamlit
+llama-index
+chromadb
+pypdf
+openai
+
+# Core LLM Integrations
+llama-index-llms-openai
+llama-index-llms-ollama
+llama-index-vector-stores-chroma
+
+# NEW: Embedding Model Integrations
+llama-index-embeddings-huggingface
+llama-index-embeddings-openai
