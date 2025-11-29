@@ -19,7 +19,7 @@ import chromadb
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 st.set_page_config(
-    page_title="Nvidia Investor AI",
+    page_title="RAG-Based Document Intelligence",
     page_icon="📈",
     layout="wide",
 )
@@ -90,7 +90,7 @@ def save_uploaded_files(uploaded_files):
 
 # --- 3. UI LAYOUT ---
 
-st.title("📈 Nvidia Investor AI Analyst")
+st.title("📈 RAG-Based Document Intelligence")
 st.caption("Powered by GPT-4o-mini & RAG")
 
 with st.sidebar:
